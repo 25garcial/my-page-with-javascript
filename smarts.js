@@ -4,7 +4,7 @@ let newDiv=document.createElement("div");
 
 let content=document.createElement("p");
 
-content.textContent=("HEllo, this is javascript at work."+String(x);
+content.textContent=("HEllo, this is javascript at work.";
 
 select.appendChild(newDiv);
 
@@ -13,7 +13,8 @@ let x=0;
 
 console.log("hi");
 function click(){
-  x++
+  alert(x);
+  x++;
   
 }
 let selector=document.querySelector(".magic-button")
